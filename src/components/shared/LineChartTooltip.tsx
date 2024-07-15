@@ -5,7 +5,7 @@ import dateFormatter from "@/utils/dateFormatter";
 
 const LineChartTooltip = ({ active, payload, label }: TooltipProps<ValueType, NameType>) => {
     //This component should be iterating over the payload array, but I was having trouble
-    //with tailwind taking in the payload color as a classname. (bg-[#9b51e0] vs bg[payload[0].color)
+    //with tailwind taking in the payload color as a classname. (bg-[#9b51e0] vs bg[payload[0].color])
     if (active && payload && payload.length) {
         return (
             <div className="border-[1px] p-3 bg-white rounded-lg">
