@@ -31,7 +31,7 @@ const APYTVLDashboardCard = ()=>{
                 <DateRangePicker/>
             </div>
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 mb-6">
-                <DataDisplayCard title="Annual Percentage Yield" dataPoint={`${(data.apy * 100).toFixed(2)}%`} statusText="-0.30% from last month" icon={<PercentIcon/>} statusTextColor="green"/>
+                <DataDisplayCard title="Annual Percentage Yield" dataPoint={`${(data.apy * 100).toFixed(2)}%`} statusText="-0.30% from last month" icon={<PercentIcon/>} statusTextColor="red"/>
                 <DataDisplayCard title="Total Value Locked" dataPoint={dollarFormatter(data.tvl)} statusText={`+${dollarFormatter(21617813)} from last month`} icon={<DollarSignIcon/>} statusTextColor="green"/>
                 <DataDisplayCard title="Risk" dataPoint="Lowest" statusText="No change from last month" icon={<GaugeIcon/>} statusTextColor="neutral"/>
                 <DataDisplayCard title="Current Yield" dataPoint="3%" statusText="+0.5% from last month" icon={<HeartBeatLineIcon/>} statusTextColor="green"/>
