@@ -11,7 +11,7 @@ const Home = () => {
     }
     const [showLoginMenu, setShowLoginMenu] = useState(false)
   return (
-    <main className="flex flex-col min-h-screen px-5 py-3 relative">
+    <main className="flex flex-col h-dvh px-5 py-3 relative">
         <div className="flex flex-row justify-between">
             <Image className="object-contain" src="https://exponential.imgix.net/app/exponential-logo-dark?auto=format&fit=max&w=3840" alt="Exponential Logo" width={138} height={24}/>
             <Button onClick={toggleLoginMenu}>Login</Button>
