@@ -30,7 +30,7 @@ const MobileLoginMenu = ({open, toggleLoginMenu}: {
         }
     }
     return (
-        <div className={`bg-gray-800 absolute top-0 left-0 w-full h-full transition-opacity ease-in-out delay-150 duration-300 ${open ? "opacity-100 visible" : "opacity-0 invisible"}`}>
+        <div className={`bg-gray-800 absolute top-0 left-0 w-full h-dvh transition-opacity ease-in-out delay-150 duration-300 ${open ? "opacity-100 visible" : "opacity-0 invisible"}`}>
             <div className="h-full flex flex-col justify-center items-center relative">
                 <div className="bg-white shadow-md rounded px-4 md:px-8 pt-6 pb-8 mb-4 w-full md:w-3/4 lg:w-1/2 xl:w-1/3">
                     <div className="flex flex-row items-center px-4 py-2 bg-blue-200 rounded mb-4">
